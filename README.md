@@ -5,12 +5,12 @@ Arquivos da Atividade avaliativa da matéria de Programação para Dispositivos 
 ## Prototipagem
 
 Todos os arquivos de imagem das telas estão na pasta Prototipos.
-### Rodar
+### Instalar Dependências do Projeto
 
 ```bash
 npm install
 ```
-Iniciar Projeto:
+### Iniciar Projeto no Expo
 ```bash
 expo start
 ```
