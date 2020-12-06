@@ -11,7 +11,7 @@
     <text class="label">Senha</text>
     <text-input class="input"/>
     <view class="itens"> 
-      <button class="btn-entrar" title="Cadastrar" color="black" :on-press="pressionar">
+      <button class="btn-entrar" title="Cadastrar" color="black" :on-press="pressionar"></button>
     </view>
   </view>
 </template>

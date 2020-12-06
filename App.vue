@@ -8,7 +8,7 @@
     <text-input class="input"/>
     <view class="itens"> 
       <text class="recuperar">Esqueceu a senha?</text>
-      <button class="btn-entrar" title="Login" color="black" :on-press="pressionar">
+      <button class="btn-entrar" title="Login" color="black" :on-press="pressionar"></button>
     </view>
 
   </view>

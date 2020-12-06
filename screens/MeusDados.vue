@@ -11,7 +11,7 @@
     <text class="label">Senha</text>
     <text-input class="input" v-model="senha"/>
     <view class="itens">
-      <button class="btn-entrar" title="Editar" color="black" :on-press="pressionar">
+      <button class="btn-entrar" title="Editar" color="black" :on-press="pressionar"></button>
     </view>
   </view>
 </template>
