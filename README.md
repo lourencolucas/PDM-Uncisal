@@ -4,17 +4,17 @@ Arquivos da Atividade avaliativa da matéria de Programação para Dispositivos 
 
 ## Instalar Dependências do Projeto:
 
-```bash
+```node
 npm install
 ```
 ### Iniciar Projeto no Expo:
-```bash
+```node
 expo start
 ```
 
 ## Prototipagem
 
-Todos os arquivos de imagem das telas estão na pasta Prototipos.
+Todos os arquivos de imagem das telas estão na pasta Prototipos no repositório GitHub.
 
 ![Login](https://res.cloudinary.com/lourencolucas/image/upload/v1607136609/PDM-Uncisal/login_srsq5i.png "Login") 
 ![Cadastro](https://res.cloudinary.com/lourencolucas/image/upload/v1607136609/PDM-Uncisal/cadastro_eyecoo.png "Cadastro")

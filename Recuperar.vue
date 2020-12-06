@@ -1,16 +1,12 @@
 <template>
   <view class="container">
     <status-bar background-color="black" bar-style="light-content" />
-    <text class="text-login">Login</text>
-    <text class="label">Login</text>
-    <text-input class="input"/>
-    <text class="label">Senha</text>
+    <text class="text-login">Recuperar</text>
+    <text class="label">E-mail</text>
     <text-input class="input"/>
     <view class="itens"> 
-      <text class="recuperar" @press="goToHomeScreen">Esqueceu a senha?</text>
-      <button class="btn-entrar" title="Login" color="black" :on-press="pressionar">
+      <button class="btn-entrar" title="Enviar" color="black" :on-press="pressionar">
     </view>
-
   </view>
 </template>
 
@@ -22,17 +18,9 @@ export default {
       senha: "Senha",
     };
   },
-  props: {
-    navigation: {
-      type: Object,
-    },
-  },
   methods: {
     pressionar: function () {
       alert("Olá, usuário!");
-    },
-    goToHomeScreen() {
-      this.navigation.navigate("Recuperar");
     },
   },
 };
