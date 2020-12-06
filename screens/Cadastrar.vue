@@ -1,23 +1,23 @@
 <template>
   <view class="container">
     <status-bar background-color="black" bar-style="light-content" />
-    <text class="text-login">Recuperar</text>
-    <text class="label">E-mail</text>
+    <text class="text-cadastro">Cadastrar Usuários</text>
+    <text class="label">Nome</text>
+    <text-input class="input"/>
+    <text class="label">Celular</text>
+    <text-input class="input"/>
+    <text class="label">Email</text>
+    <text-input class="input"/>
+    <text class="label">Senha</text>
     <text-input class="input"/>
     <view class="itens"> 
-      <button class="btn-entrar" title="Enviar" color="black" :on-press="pressionar">
+      <button class="btn-entrar" title="Cadastrar" color="black" :on-press="pressionar">
     </view>
   </view>
 </template>
 
 <script>
 export default {
-  data() {
-    return {
-      email: "E-mail",
-      senha: "Senha",
-    };
-  },
   methods: {
     pressionar: function () {
       alert("Olá, usuário!");
@@ -45,8 +45,8 @@ export default {
 .label {
   align-self: flex-start;
 }
-.text-login {
-  margin: 30%;
+.text-cadastro {
+  margin: 10%;
   font-size: 40px;
   color: black;
 }

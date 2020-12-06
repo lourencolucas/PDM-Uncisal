@@ -1,16 +1,18 @@
 <template>
   <view class="container">
     <status-bar background-color="black" bar-style="light-content" />
-    <text class="text-login">Login</text>
-    <text class="label">E-mail</text>
-    <text-input class="input"/>
+    <text class="text-cadastro">Meus Dados</text>
+    <text class="label">Nome</text>
+    <text-input class="input" v-model="nome"/>
+    <text class="label">Celular</text>
+    <text-input class="input" v-model="celular"/>
+    <text class="label">Email</text>
+    <text-input class="input" v-model="email"/>
     <text class="label">Senha</text>
-    <text-input class="input"/>
-    <view class="itens"> 
-      <text class="recuperar">Esqueceu a senha?</text>
-      <button class="btn-entrar" title="Login" color="black" :on-press="pressionar">
+    <text-input class="input" v-model="senha"/>
+    <view class="itens">
+      <button class="btn-entrar" title="Cadastrar" color="black" :on-press="pressionar">
     </view>
-
   </view>
 </template>
 
@@ -18,13 +20,15 @@
 export default {
   data() {
     return {
-      email: "E-mail",
-      senha: "Senha",
+      email: "lorenipsun@gmail.com",
+      senha: "************",
+      celular: "(82) 99999-9999",
+      nome: "Loren Ipsun Et Past"
     };
   },
   methods: {
     pressionar: function () {
-      alert("Olá, usuário! Você está na tela de Login.");
+      alert("Olá, usuário!");
     },
   },
 };
@@ -49,8 +53,8 @@ export default {
 .label {
   align-self: flex-start;
 }
-.text-login {
-  margin: 20%;
+.text-cadastro {
+  margin: 10%;
   font-size: 40px;
   color: black;
 }
