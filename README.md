@@ -16,7 +16,7 @@ expo start
 
 Todos os arquivos de imagem das telas estão na pasta Prototipos no repositório GitHub.
 
-![Login](https://res.cloudinary.com/lourencolucas/image/upload/v1607136609/PDM-Uncisal/login_srsq5i.png "Login") 
-![Cadastro](https://res.cloudinary.com/lourencolucas/image/upload/v1607136609/PDM-Uncisal/cadastro_eyecoo.png "Cadastro")
-![Meus Dados](https://res.cloudinary.com/lourencolucas/image/upload/v1607136609/PDM-Uncisal/meusDados_dpe87d.png "Meus Dados")
-![Senha](https://res.cloudinary.com/lourencolucas/image/upload/v1607136609/PDM-Uncisal/recuperarSenha_qke5g4.png "Senha")
+![Login](https://res.cloudinary.com/lourencolucas/image/upload/v1607271551/PDM-Uncisal/login_rzgdnk.png "Login") 
+![Cadastro](https://res.cloudinary.com/lourencolucas/image/upload/v1607271551/PDM-Uncisal/Cadastrar_Usu%C3%A1rio_cqrrmz.png "Cadastro")
+![Meus Dados](https://res.cloudinary.com/lourencolucas/image/upload/v1607271551/PDM-Uncisal/Meus_Dados_fakxil.png "Meus Dados")
+![Senha](https://res.cloudinary.com/lourencolucas/image/upload/v1607271551/PDM-Uncisal/Recuperar_Senha_uvt1v4.png "Senha")
